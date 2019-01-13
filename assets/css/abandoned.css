@@ -1,0 +1,774 @@
+/*  ————————————————————————————————————————————————————————————————————————————
+PROJECT: The Abandoned Container
+DATE CREATED: December 2017
+DATE MODIFIED: December 2017
+VERSION: 1
+AUTHOR: Paul Brighton
+COPYRIGHT: Paul Brighton
+————————————————————————————————————————————————————————————————————————————  */
+
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+TABLE OF CONTENTS
+
+1. RESET
+2. GLOBAL
+3. HEADER
+4. NAV
+5. HERO IMAGE
+6. HOME PAGE / MAIN
+7. FOOTER
+8. GALLERY PAGE
+9. GALLERY PAGE - IMAGE ZOOM
+10. CONTACT PAGE
+11. 404 PAGE
+————————————————————————————————————————————————————————————————————————————  */
+
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+1. RESET
+————————————————————————————————————————————————————————————————————————————  */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+2. GLOBAL
+————————————————————————————————————————————————————————————————————————————  */
+body {
+    background-color: #dededf;
+    font-family: "Open Sans", sans-serif;
+}
+
+#container {
+    background-color: #f2f2f2;
+    width: 1120px;
+    margin: auto;
+}
+
+header {
+    background-color: #b55a30;
+}
+
+#primarynav {
+    background-color: #7cb68e;
+}
+
+main {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #4a4a49;
+    color: #f2f2f2;
+    clear: both;
+    overflow: hidden;
+}
+
+
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+3. HEADER
+————————————————————————————————————————————————————————————————————————————  */
+
+#logo {
+    float: left;
+    margin-left: 95px;
+    line-height: 1.2;
+    padding-top: 30px;
+}
+#logotext {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+#socialmedia {
+    float: right;
+    margin-right: 95px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.socialicon {
+    margin-left: 10px;
+}
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+4. NAV
+————————————————————————————————————————————————————————————————————————————  */
+#primarynav {
+    clear: both;
+    padding: 5px 0;
+}
+#primarynav ul {
+    list-style-type: none;
+    display: inline;
+    margin-left: 95px;
+}
+
+#primarynav a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#primarynav li {
+    display: inline;
+    margin-right: 70px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+#primarynav a:hover {
+    color: #b55a30;
+}
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+5. HERO IMAGE
+————————————————————————————————————————————————————————————————————————————  */
+#hero {
+    margin-bottom: 25px;
+}
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+
+6. HOME PAGE / MAIN
+————————————————————————————————————————————————————————————————————————————  */
+#abandonedinfoimg {
+    width: 540px;
+    margin-bottom: 25px;
+}
+
+#logisticsimg {
+    width: 540px;
+    margin-bottom: 25px;
+}
+
+
+
+#abandonedinfo {
+    float: left;
+    width: 540px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#abandonedinfo h1 {
+    padding-bottom: 5px;
+    border-bottom: solid 1px #c9c9c9;
+    margin-bottom: 25px;
+}
+
+#abandonedinfo p {
+    margin-bottom: 15px;
+}
+
+#logistics {
+    float: left;
+    width: 540px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#logistics h2 {
+    padding-bottom: 5px;
+}
+
+#logistics p {
+    margin-bottom: 15px;
+}
+
+#logistics a {
+    text-decoration: none;
+    color: #b55a30;
+}
+
+#logistics a:hover {
+    text-decoration: underline;
+}
+
+#recycling {
+    clear: both;
+    float: left;
+    width: 540px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+#recycling h2 {
+    padding-bottom: 5px;
+}
+
+
+#recycling p {
+    margin-bottom: 15px;
+}
+
+#recycling a {
+    text-decoration: none;
+    color: #b55a30;
+}
+
+#recycling a:hover {
+    text-decoration: underline;
+}
+
+ h2 {
+     margin-bottom: 25px;
+     border-bottom: solid 1px #c9c9c9;
+     
+}
+
+#coffeeshop {
+    float: right;
+    width: 360px; 
+    padding-right: 100px;
+}
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+
+7. FOOTER
+————————————————————————————————————————————————————————————————————————————  */
+#secondarynav {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+#secondarynav ul {
+    list-style-type: none;
+    display: inline;
+}
+
+#secondarynav a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#secondarynav li {
+    display: inline;
+    margin-right: 70px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#secondarynav li:last-child {
+    margin-right: 0;
+    padding-right: 95px;
+}
+
+#secondarynav a:hover {
+    color: #b55a30;
+}
+
+
+
+.footerinfo {
+    float: left;
+    margin-left: 95px;
+    font-size: .8em;
+    padding: 40px 0;
+    line-height: 1.8;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #ee7203;
+    font-weight: 600;
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#validator {
+    color: #f2f2f2;
+}
+
+#validator:hover {
+    color: #b55a30;
+}
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+
+8. GALLERY PAGE
+————————————————————————————————————————————————————————————————————————————  */
+
+#galleryh1 {
+    color: #4a4a49;
+    float: left;
+    padding: 25px 0;
+    padding-left: 95px;
+}
+
+#abandonedgallery {
+    clear: both;
+    margin-left: 95px;
+    width: 930px;
+}
+
+#abandonedgallery h2 {
+    color: #4a4a49;
+    padding-bottom: 5px;
+}
+
+#abandonedgallery figure {
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+#abandonedgallery figcaption {
+    width: 200px;
+    font-size: 0.6em;
+}
+
+#abandonedgallery img {
+    margin: auto;
+}
+
+#logisticsgallery {
+    clear: both;
+    margin-left: 95px;
+    width: 930px;
+}
+
+#logisticsgallery h2 {
+    color: #4a4a49;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+#logisticsgallery figure {
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+#logisticsgallery figcaption{
+    width: 200px;
+    font-size: 0.6em;
+}
+
+#usesgallery {
+    clear: both;
+    margin-left: 95px;
+    width: 930px;
+}
+
+#usesgallery h2 {
+    color: #4a4a49;
+    padding-bottom: 5px;
+}
+
+#usesgallery figure {
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+#usesgallery img {
+    margin: auto;
+}
+
+#usesgallery figcaption{
+    width: 200px;
+    font-size: 0.6em;
+}
+
+/* 9. GALLERY PAGE - IMAGE ZOOM
+————————————————————————————————————————————————————————————————————————————  */
+
+.imagemodal:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    
+}
+
+/*Modal*/
+
+.myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+        
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+/*  ————————————————————————————————————————————————————————————————————————————
+
+10. CONTACT PAGE
+————————————————————————————————————————————————————————————————————————————  */
+#map {
+    width: 1120px;
+    height: 400px;
+}
+
+#contactform {
+    background-color: #f2f2f2;
+    float: left;
+    width: 455px;
+    height: 500px;
+    margin: 15px 20px;
+    padding-right: 85px;
+    border-right: solid 1px #c9c9c9;
+    
+}
+
+#contactform h1 {
+    color: black;
+    border-bottom: solid 1px #c9c9c9;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    margin-top: 35px;
+    border: 1px solid black;
+}
+
+label, input, 
+textarea {
+    display: block;
+    width: 360px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input {
+    height: 20px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 75px;
+    margin-bottom: 20px;
+    margin-left: 345px;
+    padding: 0;
+}
+
+#address {
+    float: left;
+    background-color: #f2f2f2;
+    width: 455px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#address p {
+    line-height: 1.5;
+}
+
+
+#address a {
+    text-decoration: none;
+    color: #b55a30;
+}
+
+.adr {
+    line-height: 1.5;
+}
+.locality {
+    display: block;
+}
+
+.region {
+    display: block;
+}
+
+.email {
+    display: inline-block;
+}
+
+.email a {
+    text-decoration: none;
+    color: #b55a30;
+}
+
+#address a:hover {
+    text-decoration: underline;
+}
+
+#links {
+    float: left;
+    background-color: #f2f2f2;
+    width: 455px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#links p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+#links a {
+    text-decoration: none;
+    color: #b55a30;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+/*  ————————————————————————————————————————————————————————————————————————————
+
+11. 404 PAGE
+————————————————————————————————————————————————————————————————————————————  */
+
+#fourimg {
+    background-image: url("../images/containerbase404.jpg");
+    height: 600px;
+}
+
+.fourinfo {
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    width: 550px;
+    height: 390px;
+    float: left;
+    margin-left: 190px;
+    margin-top: 105px;
+}
+
+.fourinfo h1 {
+    font-size: 10em;
+    font-weight: 700;
+    color: #f2f2f2;
+    padding-left: 25px;
+    
+}
+
+.fourinfo p {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #f2f2f2;
+    padding-left: 25px;
+    
+}
+
+#tertiarynav {
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#tertiarynav ul {
+    list-style-type: none;
+    display: inline;
+}
+
+#tertiarynav a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#tertiarynav li {
+    display: inline;
+    margin-right: 25px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#tertiarynav a:hover {
+    color:;
+    text-decoration: underline;
+}
+
+/*Model*/
+
+.myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+        
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
